@@ -1434,10 +1434,10 @@ img {
 .carousel-inner>.item>img,
 .img-responsive,
 .thumbnail a>img,
-.thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: auto
+.thumbnail>img {    
+    max-width: 320px;
+    height: auto;
+    width:100%;
 }
 
 .img-rounded {
@@ -7891,6 +7891,55 @@ button.close {
 @media (max-width:767px) {
     .visible-xs-inline-block {
         display: inline-block !important
+    }
+
+    .row .text-center h3{
+        width:80% !important;
+    }
+    .refonte{
+        width:80%;
+        margin: auto;
+    }
+    .text-center{
+        margin-bottom:40px;
+    }
+    .portfolio-row{
+        margin-bottom:0 !important;
+        margin-top:0 !important;
+    }
+
+
+    .vie{
+        width:80%;
+        margin:auto;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+
+    .utiles{
+        margin-bottom:20px !important;
+    }
+    .liste{
+        flex-direction: column !important;
+    }
+    .aide{
+        width:80%;
+        margin:auto;
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+
+    .social{
+        display:flex;
+        justify-content:space-around;
+    }
+    .col-sm-4 ul{
+        padding-left:40px !important;
+    }
+    .partner{
+        padding-left:40px !important;
     }
 }
 

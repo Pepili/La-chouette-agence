@@ -299,7 +299,7 @@ a:hover {
     line-height:30px;
     font-weight:500;
 }
-#bloc-1-hero h1 {
+#en-tête h1 {
     font-size: 32px;
 }
 
@@ -322,7 +322,9 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
 }
-
+.sr-only{
+    display:none;
+}
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -358,6 +360,10 @@ a:hover {
     border: 0px;
 }
 
+.form{
+    display:flex;
+    flex-direction: column;
+}
 .navbar-toggle:hover {
     background: transparent!important;
 }
@@ -741,6 +747,7 @@ label{
 }
 .p3{
     line-height:20px;
+    margin-top:50px;
 }
 .Liens{
     width:100%;
@@ -769,6 +776,9 @@ label{
 }
 .aide a {
     color:black;    
+}
+.aide a:hover{
+    text-decoration: underline;
 }
 .aide ul{
     padding:0;
