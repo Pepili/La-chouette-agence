@@ -322,9 +322,7 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
 }
-.sr-only{
-    display:none;
-}
+
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }

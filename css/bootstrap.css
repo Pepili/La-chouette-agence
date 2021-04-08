@@ -3225,8 +3225,14 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
+input{
+    border:1px rgb(224, 224, 224) solid;
+}
+
 
 .checkbox,
 .radio {
