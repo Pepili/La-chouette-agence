@@ -71,10 +71,15 @@ a:hover {
     -o-background-size: auto!important;
     background-size: auto!important;
 }
-.bgc-atomic-tangerine .col-sm-12 h3{
-    color:#F3976C!important;
+.bgc-atomic-tangerine .col-sm-12 h3{    
     font-size:22px;
     line-height:28px;
+}
+#exemple{
+    color:#F3976C!important;
+}
+h3 .help{
+    color:white !important;
 }
 .bgc-atomic-tangerine  .col-sm-12 p{
     color:black !important;
@@ -457,10 +462,8 @@ nav .caret {
 
 .refonte{
     margin-top: 10px;
-    margin-bottom: 20px;
-    text-transform:uppercase;
-    font-size:16px;
-    font-weight:600;    
+    margin-bottom: 20px;   
+    font-size:20px;       
 }
 .col-sm-6 p{
     font-size:16px;
@@ -807,7 +810,8 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: #757575!important;
+    font-weight:0;
 }
 
 .icons {
